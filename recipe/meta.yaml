@@ -1,5 +1,5 @@
 {% set name = "condansis" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 16f1d747c2b2362b416731a1a248c9bd2e4738160a6ad5c3f407515f2f53c389
+  sha256: 6b50f5ee08f4f025db3b0e3944b945a7b6d26e007ee6a2ef93ad9bb3f873dae8
 
 build:
   noarch: python
